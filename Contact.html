@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List and Link</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML List & Link</h1>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./News.html">News</a></li>
+        <li><a href="./About.html">About</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+    </ul>
+    <hr>
+    <h1>Contact Page</h1>
+    <hr>
+    <h3>Please fill-in form</h3>
+    <form action="./index.html">
+        <fieldset>
+            <legend>User Info</legend>
+            <label>FirstName:
+                <input type="text" name="fname" />
+            </label><br><br>
+            <label>LastName:
+                <input type="text" name="lname" />
+            </label><br><br>
+            <fieldset>
+                <legend><p>courses</p></legend>
+                    <label>
+                        <input type="radio" name="courses" value="html"> HTML
+                    </label>
+                    <label>
+                        <input type="radio" name="courses" value="css"> CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="courses" value="js"> Javascript
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend><p>framework</p></legend>
+                    <label>
+                        <input type="radio" name="framework" value="react"> React
+                    </label>
+                    <label>
+                        <input type="radio" name="framework" value="Angular"> Angular
+                    </label>
+            </fieldset>
+        </fieldset>
+        <button>ok</button>
+        <button type="button">ok2</button>
+        <input type="submit" value="submit" />
+
+    </form>
+</body>
+</html>
